@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/alunos")
 
-class AlunoRestController {
+public class AlunoRestController {
 
     private List<Aluno> list = new ArrayList<>();
     private AlunoResourceAssembler assembler = new AlunoResourceAssembler();
